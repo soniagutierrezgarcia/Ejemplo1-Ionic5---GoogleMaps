@@ -1,3 +1,10 @@
-Please replace '(API key)' in 'config.xml file with your API KEY.
-Read in the article how you can get one:
+Please replace '(Your API key)' in 'config.xml file with your API KEY.
+
+<widget>
+    .........
+    <preference name="GOOGLE_MAPS_ANDROID_API_KEY" value="(Your API key)" />
+    <preference name="GOOGLE_MAPS_IOS_API_KEY" value="(Your API key)" />
+</widget>
+
+Read in the next article how you can get one:
 https://developers.google.com/maps/documentation/javascript/get-api-key
